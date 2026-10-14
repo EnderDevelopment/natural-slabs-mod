@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "naturalslabsmod",
+  "version": "1.0.0",
+  "name": "Natural Slabs Mod",
+  "description": "A mod that smoothens out the terrain by generating natural slabs during elevation or descent.",
+  "authors": ["Humanepic01"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.humanepic01.naturalslabsmod.NaturalSlabsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
